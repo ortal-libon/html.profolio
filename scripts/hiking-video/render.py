@@ -9,6 +9,8 @@ Needs Python 3 with Pillow + numpy, and ffmpeg (libx264) on PATH.
 
     python3 scripts/hiking-video/render.py            # full video + poster
     python3 scripts/hiking-video/render.py --frames 2 6.5 14  # preview PNGs
+
+The rendered video has no sound; run narrate.py afterwards to add the voice.
 """
 import argparse
 import math
